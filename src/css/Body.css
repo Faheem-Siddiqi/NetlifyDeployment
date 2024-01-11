@@ -1,0 +1,57 @@
+div {
+    overflow-x: hidden;
+}
+.accordion-item,
+.accordion-item:focus,
+.accordion-item:active,
+.accordion-header,
+.accordion-header:focus,
+.accordion-header:active,
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:active {
+    outline: none !important;
+}
+
+
+.pos{
+    z-index: 4;
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+.accordion-button {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid white !important;
+    border-radius: 4px !important;
+}
+
+.accordion-button::after {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.cardStep {
+    background-color: red;
+    background-image: linear-gradient(25deg, #1aacac, #ff00ea);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.card {
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, .644);
+    transition: .5s;
+}
+.card:hover {
+  
+    border-top: 5px solid #73CCD8 !important;
+    transform: translateY(-12px);
+}
+.card-img-top {
+    width: 155px;
+    height: 145px;
+}

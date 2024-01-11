@@ -1,0 +1,25 @@
+.heroSectionBtn {
+  background-image: linear-gradient(to right, #5270c2 0%, rgb(163, 54, 152) 51%, #4682cf 100%);
+  margin: 10px;
+  padding:20px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid transparent;
+}
+.heroSectionBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.headerTitle {
+  letter-spacing: 5px;
+  font-family: 'Asap Condensed', sans-serif;
+}
